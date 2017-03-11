@@ -11,7 +11,7 @@ Practice how to create basic web components with basic HTML, CSS and JS
 >希望能够与大家互相分享，共同进步。
 
 ## 目录
-* [轮播图](./cases/slideshow?_blank)   [效果预览](https://htmlpreview.github.io/?https://github.com/Garrik-Liu/webPractices/blob/master/cases/slideshow/slideshowDemo.html?_blank)
+* [轮播图](./cases/slideshow) - [效果预览](https://htmlpreview.github.io/?https://github.com/Garrik-Liu/webPractices/blob/master/cases/slideshow/slideshowDemo.html)
 
 ## 参考
-教材整理自 [w3cschools.com](https://www.w3schools.com/howto/default.asp?_blank)
+教材整理自 [w3cschools.com](https://www.w3schools.com/howto/default.asp)
