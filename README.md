@@ -1,4 +1,4 @@
-# webPractices
+# 前端实例练习合集
 Practice how to create basic web components with basic HTML, CSS and JS
 
 ## 为何写此教材
