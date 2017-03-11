@@ -1,0 +1,79 @@
+* {
+	margin: 0; 
+	padding: 0;
+    box-sizing: border-box;
+}
+
+/* 轮播图容器 */
+.slideshow-container {
+    max-width: 800px;
+    position: relative;       /*设置为相对定位，以让子元素相对它进行绝对定位*/
+    margin: 20px auto;           /*居中*/
+}
+
+.slide {
+    display: none;     /*默认为不显示*/
+}
+
+.slide img {
+    width: 100%;     /*宽度最大不超过父元素（轮播容器）*/
+}
+
+.slideIndex {        /*设置页标样式*/
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* 前进 & 后退 */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;    /*在轮播容器内绝对定位*/
+    top: 50%;              /*在垂直方向调到中间*/
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease; /*加入动画特效*/
+}
+
+.prev {
+    left: 0;   
+    border-radius: 0 3px 3px 0;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/*当鼠标Hover时，背景色改变，提升用户体验*/
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dotGroup {  
+	text-align: center;      /*使按钮组居中*/
+    position: relative;      /*使其脱离文档流，不会被图片挡住*/
+    margin-top: -30px;       /*向上移，使其出现在在图片底端位置*/
+}
+
+/* The dots/bullets/indicators */
+.dot {                   
+    cursor:pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover { 
+    background-color: #717171;
+}

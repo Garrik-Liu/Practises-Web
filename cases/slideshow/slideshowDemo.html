@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>轮播图</title>
+	<link rel="stylesheet" type="text/css" href="slideshowDemo.css">
+</head>
+<body>
+    <div class="slideshow-container"> <!-- 轮播容器开始 -->
+    	
+    	<!-- 轮播页面 -->
+    	<div class="slide fade"> 
+    		<div class="slideIndex"></div> <!-- 展示页码 -->
+    		<img src="img1.jpg">           <!-- 轮播图片 -->
+    	</div>
+        
+        <!-- 轮播页面 -->
+    	<div class="slide fade">
+    		<div class="slideIndex"></div> <!-- 展示页码 -->
+    		<img src="img2.jpg">           <!-- 轮播图片 -->
+    	</div>
+        
+        <!-- 轮播页面 -->
+    	<div class="slide fade">
+    		<div class="slideIndex"></div> <!-- 展示页码 -->
+    		<img src="img3.jpg">           <!-- 轮播图片 -->
+    	</div>
+        
+        <!-- 前翻页，后翻页按钮 -->
+    	<a class="prev" id="slideShowPrev">&#10094;</a> <!-- &#10094 为特殊Unicode字符 -->
+        <a class="next" id="slideShowNext">&#10095;</a>  <!-- &#10095 为特殊Unicode字符 -->
+        
+        <!-- 圆点坐标按钮组 -->
+        <div class="dotGroup"> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+        </div>
+    </div> <!-- 轮播容器结束 -->
+<script type="text/javascript" src="slideshowDemo.js"></script>
+</body>
+</html>
