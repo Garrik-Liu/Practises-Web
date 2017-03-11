@@ -9,8 +9,9 @@ Practice how to create basic web components with basic HTML, CSS and JS
 >学习一门新知识，实例是尤其重要的。在这里,本人整理了目前页面上常见功能的具体实现方法。愿能为大家提供一些帮助。
 >
 >希望能够与大家互相分享，共同进步。
+
 ## 目录
-* [轮播图](./cases.slideshow)
+* [轮播图](./cases/slideshow)
 
 ## 参考
 教材整理自 [w3cschools.com](https://www.w3schools.com/howto/default.asp)
