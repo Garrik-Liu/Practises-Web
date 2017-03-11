@@ -1,0 +1,21 @@
+.btn {
+    border: none;         /* 消除边框 */
+    color: white;         /* 设置字体颜色 */
+    padding: 14px 28px;   /* 设置Padding */
+    cursor: pointer;      /* 设置光标样式 */
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
