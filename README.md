@@ -14,6 +14,7 @@ Practice how to create basic web components with basic HTML, CSS and JS
 * [轮播图](./cases/1.slideshow) - [效果预览](https://htmlpreview.github.io/?https://github.com/Garrik-Liu/webPractices/blob/master/cases/1.slideshow/slideshowDemo.html)
 * [提示按钮](./cases/3.alertButton) - [效果预览](https://htmlpreview.github.io/?https://github.com/Garrik-Liu/webPractices/blob/master/cases/3.alertButton/alertButton.html)
 * [动效按钮](./cases/4.animatedButton) - [效果预览](https://htmlpreview.github.io/?https://github.com/Garrik-Liu/webPractices/blob/master/cases/4.animatedButton/animatedButton.html)
+* [加载动效按钮](./cases/5.loadingButton) - [效果预览](https://htmlpreview.github.io/?https://github.com/Garrik-Liu/webPractices/blob/master/cases/5.loadingButton/loadingButton.html)
 
 ## 参考
 教材整理自 [w3cschools.com](https://www.w3schools.com/howto/default.asp)
