@@ -1,0 +1,77 @@
+/*触发图片样式*/
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {
+	opacity: 0.7;
+}
+
+/*模态框样式*/
+.modal {
+    display: none; /* 默认隐藏 */
+    position: fixed; /* 相对浏览器定位 */
+    z-index: 1; /* 放在首位 */
+    padding-top: 100px; /* 头部加padding */
+    left: 0;
+    top: 0;
+    width: 100%; /* 全宽 */
+    height: 100%; /* 全高 */
+    overflow: auto; /* 允许超出滚屏 */
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: 0 auto; /*居中*/
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/*加断点，响应式改变宽度*/
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+#caption {
+    margin: 0 auto; /*居中*/
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/*加动效果*/
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/*关闭按钮样式*/
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
