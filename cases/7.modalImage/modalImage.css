@@ -23,6 +23,7 @@
     background-color: rgba(0,0,0,0.9);
 }
 
+/*模态框内容样式*/
 .modal-content {
     margin: 0 auto; /*居中*/
     display: block;
