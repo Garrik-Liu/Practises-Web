@@ -1,0 +1,150 @@
+/*初始化*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+/*清除浮动*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.column img {
+  width: 100%;
+  cursor: pointer;
+}
+
+/*模态框*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+
+/*模态内容*/
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+  animation: zoomShow 0.5s; /*添加动画*/
+}
+
+@keyframes zoomShow {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/*关闭按钮*/
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*模态图片*/
+.mySlides {
+  display: none;
+  background-color: rgba(0,0,0,0.9);
+  animation: fadeShow 0.5s; /*添加动画*/
+}
+
+@keyframes fadeShow {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.mySlides img {
+  width: 100%;
+} 
+
+/*前翻后翻*/
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*定位数字*/
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/*图片标题*/
+.caption-container {
+  text-align: center;
+  background-color: rgba(0,0,0,0.9);
+  padding: 5px 16px 10px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+img.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}

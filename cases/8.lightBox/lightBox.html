@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>模态轮播图</title>
+  <link rel="stylesheet" type="text/css" href="lightBox.css">
+</head>
+<body>
+  <!-- 图片栏 -->
+  <div class="row">
+    <div class="column">
+      <img src="img1.jpg" class="hover-shadow triggerImg">
+    </div>
+    <div class="column">
+      <img src="img2.jpg" class="hover-shadow triggerImg">
+    </div>
+    <div class="column">
+      <img src="img3.jpg" class="hover-shadow triggerImg">
+    </div>
+    <div class="column">
+      <img src="img4.jpg" class="hover-shadow triggerImg">
+    </div>
+  </div>
+
+  <!-- 模态框 -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" id="closeBtn">&times;</span>
+    
+    <!-- 模态内容 -->
+    <div class="modal-content">
+
+      <!-- 模态内容中的照片 -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="img1.jpg">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="img2.jpg">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="img3.jpg">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="img4.jpg">
+      </div>
+
+      <!-- 后翻页 -->
+      <a class="prev">&#10094;</a>
+
+      <!-- 前翻页 -->
+      <a class="next">&#10095;</a>
+
+      <!-- 图片标题 -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- 列出待选图片（包括正在显示的图片） -->
+      <div class="column">
+        <img class="demo" src="img1.jpg" alt="图片1">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="img2.jpg" alt="图片2">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="img3.jpg" alt="图片3">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="img4.jpg" alt="图片4">
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="lightBox.js"></script>
+</body>
+</html>
