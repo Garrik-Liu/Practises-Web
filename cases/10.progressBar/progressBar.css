@@ -1,0 +1,29 @@
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+}
+#myBar {
+    width: 1%;
+    height: 30px;
+    background-color: green;
+    text-align: center; /*文字水平居中*/
+    color: #fff;
+    line-height: 30px; /*文字垂直居中*/
+}
+
+#myOperation {
+	margin-top: 10px;
+}
+
+#myRun {
+	background-color: green;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+	padding: 10px 15px;
+}
+
+#myPersent {
+	float: right;
+}
