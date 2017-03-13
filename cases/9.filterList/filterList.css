@@ -1,0 +1,38 @@
+#myInput {
+    background-image: url('http://www.freeiconspng.com/uploads/search-icon-png-2.png'); /* 背景为放大镜图标 */
+    background-size: 18px; /*大小和内容框大小一样*/
+    background-position: 10px 12px; /* 背景图片定位 */
+    background-repeat: no-repeat; /* 图片不重复 */
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+}
+
+#myUL {
+    /*清除默认样式*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li a {
+    border: 1px solid #ddd; 
+    margin-top: -1px; /*消除双重border*/
+    background-color: #f6f6f6; 
+    padding: 12px;
+    text-decoration: none; 
+    font-size: 18px; 
+    color: black; 
+    display: block; /*变为块级元素，以来填充li*/
+}
+
+#myUL li a.header {
+    background-color: #e2e2e2;
+    cursor: default; /*使光标看上去，a.header为不可点击项*/
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee; 
+}
