@@ -18,6 +18,7 @@ Practice how to create basic web components with basic HTML, CSS and JS
 * [模态框](./cases/6.modalBox) - [效果预览](https://htmlpreview.github.io/?https://github.com/Garrik-Liu/webPractices/blob/master/cases/6.modalBox/modalBox.html)
 * [模态图](./cases/7.modalImage) - [效果预览](https://htmlpreview.github.io/?https://github.com/Garrik-Liu/webPractices/blob/master/cases/7.modalImage/modalImage.html)
 * [模态相册](./cases/8.lightBox) - [效果预览](https://htmlpreview.github.io/?https://github.com/Garrik-Liu/webPractices/blob/master/cases/8.lightBox/lightBox.html)
+* * [可搜索列表](./cases/9.filterList) - [效果预览](https://htmlpreview.github.io/?https://github.com/Garrik-Liu/webPractices/blob/master/cases/9.filterList/filterList.html)
 
 ## 参考
 教材整理自 [w3cschools.com](https://www.w3schools.com/howto/default.asp)
