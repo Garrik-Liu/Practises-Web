@@ -6,19 +6,21 @@
 	<link rel="stylesheet" type="text/css" href="toDoList.css">
 </head>
 <body>
+    <!-- 任务输入框 -->
 	<div id="myDIV" class="header">
-		<h2>My To Do List</h2>
-		<input type="text" id="myInput" placeholder="Title...">
-		<span onclick="newElement()" class="addBtn">Add</span>
+		<h2>任务清单</h2>
+		<input type="text" id="myInput" placeholder="请输入任务">
+		<span id="addButton" class="addBtn">添加</span>
 	</div>
-
+    
+    <!-- 任务列表 -->
 	<ul id="myUL">
-		<li>Hit the gym</li>
-		<li class="checked">Pay bills</li>
-		<li>Meet George</li>
-		<li>Buy eggs</li>
-		<li>Read a book</li>
-		<li>Organize office</li>
+		<li>七点半起床</li>
+		<li class="checked">洗漱</li>
+		<li>去上班</li>
+		<li>完成报表</li>
+		<li>和小明吃午饭</li>
+		<li>去超市</li>
 	</ul>
 	<script type="text/javascript" src="toDoList.js"></script>
 </body>
