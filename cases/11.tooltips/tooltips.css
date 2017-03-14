@@ -1,0 +1,55 @@
+/*此部分设置只为方便预览，实际开发中，根据实际情况调整*/
+body {
+    text-align: center;
+}
+
+#hoverMe {
+    margin-top: 100px;
+}
+
+/* 提示框 */
+.tooltip {
+    position: relative; /*让.tooltiptext根据它绝对定位*/
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+/* 提示框内文字 */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* 定位 */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* 缓慢显示 */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* 提示框小三角 */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* 当鼠标悬停在文字上，出现提示框 */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
