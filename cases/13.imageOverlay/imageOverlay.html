@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>图片覆盖层</title>
+	<link rel="stylesheet" type="text/css" href="imageOverlay.css">
+</head>
+<body>
+	<h2>图片覆盖层</h2>
+
+    <select id="mySelect">
+    	<option value="overlayFadeIn">渐显</option>
+    	<option value="overlaySlideInTop">从上滑入</option>
+    	<option value="overlaySlideInBottom">从下滑入</option>
+    	<option value="overlaySlideInRight">从右滑入</option>
+    	<option value="overlaySlideInLeft">从左滑入</option>
+    </select>
+
+	<div class="container">
+	  <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" class="image">
+	  <div class="overlayFadeIn" id="overlay">
+	    <div class="text">Hello World</div>
+	  </div>
+	</div>
+<script type="text/javascript" src="imageOverlay.js"></script>
+</body>
+</html>
