@@ -23,6 +23,7 @@ Practice how to create basic web components with basic HTML, CSS and JS
 * [提示框](./cases/11.tooltips) - [效果预览](https://htmlpreview.github.io/?https://github.com/Garrik-Liu/webPractices/blob/master/cases/11.tooltips/tooltips.html)
 * [任务列表](./cases/12.toDoList) - [效果预览](https://htmlpreview.github.io/?https://github.com/Garrik-Liu/webPractices/blob/master/cases/12.toDoList/toDoList.html)
 * [图片覆盖层](./cases/13.imageOverlay) - [效果预览](https://htmlpreview.github.io/?https://github.com/Garrik-Liu/webPractices/blob/master/cases/13.imageOverlay/imageOverlay.html)
+* [回到顶部](./cases/14.goToTop) - [效果预览](https://htmlpreview.github.io/?https://github.com/Garrik-Liu/webPractices/blob/master/cases/14.goToTop/goToTop.html)
 
 ## 参考
 教材整理自 [w3cschools.com](https://www.w3schools.com/howto/default.asp)
